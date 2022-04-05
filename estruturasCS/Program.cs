@@ -99,6 +99,7 @@ namespace estruturasCS
 
 
 
+
             Console.ReadKey();
         }
     }
