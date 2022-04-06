@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLabNu;
 
 namespace estruturasCS
 {
@@ -97,7 +98,13 @@ namespace estruturasCS
             Console.WriteLine($"Removemos o primeiro elemento da pilha {pilha.Pop()}");
             Console.WriteLine($"Proximo elemento da pilha {pilha.Peek()}");
 
-
+            if (Usuario.EfetuarLogin("nome", "senac"))
+            {
+                //login com sucesso
+            }
+            
+            Usuario usuario = new Usuario();
+            usu
 
 
             Console.ReadKey();
